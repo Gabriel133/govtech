@@ -21,7 +21,9 @@ I used lexical analysis to look for matches instead of regular expression approa
    - Example: `java -cp .;antlr-3.2.jar Main <directory>`
 
 ## Build & Run
-Following guide for Windows OS only
+*If you only want to start the program, you can directly run it by double click on `run.bat` file*
+
+Following guide for Windows OS only:
 1. Open CMD and change directory to `./src` directory
 2. Build and generate lexer class `java -cp .;antlr-3.2.jar org.antlr.Tool JavaCommentLexer.g`
 3. Build the main class of this program `javac -cp .;antlr-3.2.jar Main.java`
