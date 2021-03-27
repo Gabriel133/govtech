@@ -20,6 +20,7 @@ public class Main {
       // Check if a valid path
       if (! (new File(path).isDirectory())) {
         System.out.println("\nPlease specify a valid directory in first argument");
+        System.out.println("\n-- PROGRAM END --");
         return;
       }
       else {
