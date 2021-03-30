@@ -1,5 +1,5 @@
 # govtech
-This is a technical assessement from GovTech that required to write an application/script that when executed in a directory, produces a list of all files (using their absolute paths) containing the keyword "TODO" in them. The files can be in the immediate directory, or a sub-directory (or a sub-directory of the sub-directory, ad infinitum). For more detail of this assessment, please refer to https://gitlab.com/mycf.sg/challenges/dev-checkin
+This is a technical assessement from GovTech that required to write an application/script that when executed in a directory, produces a list of all files (using their absolute paths) containing the keyword "TODO" in them. The files can be in the immediate directory, or a sub-directory (or a sub-directory of the sub-directory, ad infinitum).
 
 ## Approach
 I used lexical analysis to look for matches instead of regular expression approach and leverage ANTLR(v3.2) parser generator in this program. For more detail of ANTLR, please refer to https://www.antlr.org/
