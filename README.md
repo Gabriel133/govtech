@@ -24,14 +24,14 @@ This Java program use **regular expression** to search for the TODO keyword from
 
 **/run.bat**
  - For Windows user, you can run the program by double click on this `run.bat` file
- - For MacOS or Linux, please refer to below section **Compile & Run** for more detail
- - User can specify directory in the bat file command
+ - For MacOS or Linux user, please refer to below section **Compile & Run** for more detail
+ - User can specify directory in the command of the bat file
    - Example: `java main <directory>`
  
 
 ## Compile & Run
-1. Open command prompt/Terminal and change directory to `./src` directory
+1. Open Command Prompt/Terminal and change directory to `./src`
 2. Compile the main class of this program `javac main.java`
 3. Run and test the program `java main .\..\target-search-dir`
- 3.1. You are able to specify directory by changing the run command:
-  - Example: `java main <directory>`
+ - User are able to specify directory by changing the run command:
+   - Example: `java main <directory>`
